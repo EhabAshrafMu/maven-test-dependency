@@ -1,11 +1,16 @@
 package com.oreilly.jenkins;
 
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
 public class MessageSource {
 
-	private String message = "Hi from the message source.";
-
-	public String getMessage() {
-		return message;
+	@Test 
+	public void test() {
+		fail("Not Implemented");
+	}
 	}
 
-}
+
