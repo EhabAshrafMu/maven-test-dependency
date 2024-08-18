@@ -1,17 +1,9 @@
-package com.oreilly.jenkins;
-
-import static org.junit.Assert.*;
-
-import org.junit.Test;
-
+package com.oreilly.jenkins
 
 public class MessageSource {
+    private String message = "Hi from Message Source"
 
-	@Test 
-	public void test() {
-		assertTrue(1 == 1);
-		//fail("Not Implemented");
-	}
+    public String getMessage() {
+        return message;
+    }
 }
-
-
